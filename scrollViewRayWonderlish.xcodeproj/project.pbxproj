@@ -12,6 +12,7 @@
 		D9387881204192610058FE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D938787F204192610058FE4C /* Main.storyboard */; };
 		D9387883204192610058FE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9387882204192610058FE4C /* Assets.xcassets */; };
 		D9387886204192610058FE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9387884204192610058FE4C /* LaunchScreen.storyboard */; };
+		D938788F20419B0B0058FE4C /* RwScrolleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938788E20419B0B0058FE4C /* RwScrolleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D9387882204192610058FE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9387885204192610058FE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9387887204192610058FE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D938788E20419B0B0058FE4C /* RwScrolleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwScrolleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D938787A204192610058FE4C /* scrollViewRayWonderlish */ = {
 			isa = PBXGroup;
 			children = (
+				D938788D20419AD00058FE4C /* doItYourSelfScrolView */,
 				D938787B204192610058FE4C /* AppDelegate.swift */,
 				D938787D204192610058FE4C /* ViewController.swift */,
 				D938787F204192610058FE4C /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D9387887204192610058FE4C /* Info.plist */,
 			);
 			path = scrollViewRayWonderlish;
+			sourceTree = "<group>";
+		};
+		D938788D20419AD00058FE4C /* doItYourSelfScrolView */ = {
+			isa = PBXGroup;
+			children = (
+				D938788E20419B0B0058FE4C /* RwScrolleView.swift */,
+			);
+			path = doItYourSelfScrolView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D938787E204192610058FE4C /* ViewController.swift in Sources */,
+				D938788F20419B0B0058FE4C /* RwScrolleView.swift in Sources */,
 				D938787C204192610058FE4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
